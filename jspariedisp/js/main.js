@@ -53,16 +53,16 @@ function validateAndConvertUntilInputNumber(string){
         string = prompt("Reinserisci un numero: ");
     }
     // Qui sono sicuro che la mia stringa conterrà un numero
-    let numero = parseInt(string);
-    return numero;
+    let number = parseInt(string);
+    return number;
 }
 
 /*function onlyNumberFrom1To5(number, string){
     while (number < 1 || number > 5 ){
         string = prompt("Attenzione: il numero deve essere compreso tra 1 e 5!");
     }
-    let numero = parseInt(string);
-    return numero;
+    let number = parseInt(string);
+    return number;
 }*/
 
 
